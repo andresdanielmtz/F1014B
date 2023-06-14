@@ -51,23 +51,15 @@ def dg_dt(
 
 # Tiempo inicial
 t_0 = 0
-# Tiempo final
+
 t_f = 6
 
-# Altura Inicial x_0
+# valores iniciales 
 x_0 = 10
-# Velocidad Inicial y_0
 y_0 = 0
 
-# Paso horizontal
 h = 0.01
-
-# Número de pasos
-# Calcula el número de pasos entre t_0 y t_f cuando tienes un paso horizontal de h
 N = int((t_f - t_0) / h)
-
-# Arreglo con valores del tiempo:
-# Usa np.linspace() para definir un arreglo que vaya de t_0 a t_f en N pasos
 t = np.linspace(t_0, t_f, N)
 
 all_xs = []
