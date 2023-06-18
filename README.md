@@ -15,3 +15,6 @@ Crear una simulación computacional de la desaceleración por frenado magnético
 
 ![Resultado Final](./img/img1.png)
 ![Resultado Final](./img/img2.png)
+
+### Notas Finales
+- La versión de Python solo fue usada por propósitos de prototipado y, aunque se encuentre en un estado funcional, no es la versión final del proyecto.
